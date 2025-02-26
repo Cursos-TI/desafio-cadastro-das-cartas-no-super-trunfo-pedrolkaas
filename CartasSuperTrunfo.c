@@ -32,7 +32,7 @@ int main() {
      printf("digite o numero de pontos turisticos da cidade doestado1:\n");
      scanf("%d", &pontos_turisticos1);
 
-     printf("estado 1"\n);
+     printf("estado 1\n");
     
      printf("estado: %c\n", estado1);
      printf("codigo da carta: %s\n", codigo_da_carta1);
