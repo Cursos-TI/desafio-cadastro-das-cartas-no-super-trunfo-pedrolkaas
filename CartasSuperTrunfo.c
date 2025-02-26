@@ -22,10 +22,10 @@ int main() {
      printf("digite a cidade do estado1:\n");
      scanf("%s", &Cidade1);
     
-     printf("digite a populacao da cidade do estado1:\n");
+     printf("digite a populacão da cidade do estado1:\n");
      scanf("%d", &Populacao1);
     
-     printf("digite a are em km da cidade do estado1:\n");
+     printf("digite a área em quilometros quadrados da cidade do estado1:\n");
      scanf("%f", &area_em_km1);
     
      printf("digite o PIB da cidade do estado1:\n");
@@ -50,7 +50,7 @@ int main() {
      printf("digite a populacao da cidade do estado2:\n");
      scanf("%d", &Populacao2);
     
-     printf("digite a are em km da cidade do estado2:\n");
+     printf("digite a área em quilometros quadrados da cidade do estado2:\n");
      scanf("%f", &area_em_km2);
     
      printf("digite o PIB da cidade do estado2:\n");
@@ -65,20 +65,20 @@ int main() {
      printf("Codigo da carta: %s\n", codigo_da_carta1);
      printf("Cidade: %s\n", Cidade1);
      printf("Populacao: %d\n", Populacao1);
-     printf("Area em quilometros quadrados: %.3f\n", area_em_km1);
+     printf("Área em quilometros quadrados: %.3f\n", area_em_km1);
      printf("PIB: %.3f\n", PIB1);
-     printf("Pontos turisticos: %d\n", pontos_turisticos1);
+     printf("Pontos turísticos: %d\n", pontos_turisticos1);
     
 
      printf("       \n");
     
      printf("Estado: %s\n", estado2);
-     printf("Codigo da carta: %s\n", codigo_da_carta2);
+     printf("Código da carta: %s\n", codigo_da_carta2);
      printf("Cidade: %s\n", Cidade2);
-     printf("Populacao: %d\n", Populacao2);
-     printf("Area em quilometros quadrados: %.3f\n", area_em_km2);
+     printf("Populacão: %d\n", Populacao2);
+     printf("Área em quilometros quadrados: %.3f\n", area_em_km2);
      printf("PIB: %.3f\n", PIB2);
-     printf("Pontos turisticos: %d\n", pontos_turisticos2);
+     printf("Pontos turísticos: %d\n", pontos_turisticos2);
     
     
      return 0;
